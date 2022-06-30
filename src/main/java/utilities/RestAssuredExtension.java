@@ -26,6 +26,12 @@ public class RestAssuredExtension {
         this.method = method;
 
     }
+
+    public RestAssuredExtension(String uri) {
+        //Formulate the API url
+        this.url = "https://3e3d2990-3fca-4144-8b26-1538cf135a09.mock.pstmn.io" + uri;
+    }
+
     /**
      * ExecuteAPI to execute the API for GET/POST/DELETE
      * @return ResponseOptions<Response>
