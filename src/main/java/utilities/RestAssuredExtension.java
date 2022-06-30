@@ -24,12 +24,15 @@ public class RestAssuredExtension {
         //Formulate the API url
         this.url = "https://3e3d2990-3fca-4144-8b26-1538cf135a09.mock.pstmn.io" + uri;
         this.method = method;
-
     }
 
     public RestAssuredExtension(String uri) {
         //Formulate the API url
         this.url = "https://3e3d2990-3fca-4144-8b26-1538cf135a09.mock.pstmn.io" + uri;
+    }
+
+    public void setMethod(String method) {
+        this.method = method;
     }
 
     /**
@@ -84,7 +87,16 @@ public class RestAssuredExtension {
         return ExecuteAPI();
     }
 
+    public void setBody(Map<String, String> body) {
+        builder.setBody(body);
+    }
+
     public ResponseOptions<Response> Execute() {
+        return ExecuteAPI();
+    }
+
+    public ResponseOptions<Response> setParamsAndExecute(String userId) {
+        this.url = this.url +'/'+userId;
         return ExecuteAPI();
     }
 

@@ -1,8 +1,10 @@
 package models;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import gherkin.deps.com.google.gson.annotations.SerializedName;
 
 @JsonIgnoreProperties(ignoreUnknown=true)
 public class Users {
+    @SerializedName(value = "userId")
     private String id;
     private String username;
     private String firstName;
