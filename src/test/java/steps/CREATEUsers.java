@@ -1,11 +1,10 @@
 package steps;
 
-import cucumber.api.DataTable;
-import cucumber.api.java.en.Given;
-import cucumber.api.java.en.Then;
-import cucumber.api.java.en.When;
-import io.restassured.response.Response;
-import io.restassured.response.ResponseOptions;
+
+import io.cucumber.datatable.DataTable;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
 import models.Users;
 import utilities.APIConstant;
 import utilities.RestAssuredExtension;
@@ -25,17 +24,7 @@ public class CREATEUsers {
         this.baseStepDefs = baseStepDefs;
     }
 
-    @Given("^I Perform POST operation for \"([^\"]*)\" adding new user with body$")
-    public void iPerformPOSTOperationForAddingNewUserWithBody(String url, DataTable table) throws Throwable {
-        List<List<String>> data = table.raw();
-        //Set body
-        HashMap<String, String> body = new HashMap<>();
-        body.put(data.get(0).get(0), data.get(1).get(0));
-        body.put(data.get(0).get(1), data.get(1).get(1));
-        body.put(data.get(0).get(2), data.get(1).get(2));
-        RestAssuredExtension restAssuredExtension = new RestAssuredExtension(url, APIConstant.ApiMethods.POST);
-        baseStepDefs.response = restAssuredExtension.ExecuteWithBody(body);
-    }
+
 
 
     @Then("^I should see the body has id as \"([^\"]*)\"$")

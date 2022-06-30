@@ -5,6 +5,8 @@
         <classes>
             <class name="steps.BaseStepDefs"></class>
             <class name="steps.CREATEUsers"></class>
+            <class name="features"></class>
+            <class name="steps.UPDATEUsers"></class>
         </classes>
     </test>
 </suite>
