@@ -26,4 +26,9 @@ public class REMOVEUsers {
         Users user = response.getBody().as(Users.class);
         assertThat(user.getId(), equalTo(null));
     }
+
+    @Given("^I created a user$")
+    public void iCreatedAUser() {
+        // verilen api serverda user create etmeye gerek yoktur. Fakat normalde remove öncesinde create edilmesi gerektiği için gherkin adımında yazılmıştır
+    }
 }
