@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-07-01T14:32:59.564Z",
+        "start_timestamp": "2022-07-01T14:42:24.942Z",
         "line": 13,
         "name": "Verify success scenarios with creating users with valid credentials",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 297000000,
+              "duration": 374000000,
               "status": "passed"
             },
             "line": 5,
@@ -31,7 +31,7 @@
           },
           {
             "result": {
-              "duration": 92000000,
+              "duration": 78000000,
               "status": "passed"
             },
             "line": 6,
@@ -61,7 +61,7 @@
           },
           {
             "result": {
-              "duration": 1901000000,
+              "duration": 1782000000,
               "status": "passed"
             },
             "line": 7,
@@ -104,7 +104,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-07-01T14:33:02.471Z",
+        "start_timestamp": "2022-07-01T14:42:27.626Z",
         "line": 14,
         "name": "Verify success scenarios with creating users with valid credentials",
         "description": "",
@@ -132,7 +132,7 @@
           },
           {
             "result": {
-              "duration": 2000000,
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 6,
@@ -162,7 +162,7 @@
           },
           {
             "result": {
-              "duration": 1127000000,
+              "duration": 1017000000,
               "status": "passed"
             },
             "line": 7,
@@ -174,7 +174,7 @@
           },
           {
             "result": {
-              "duration": 12000000,
+              "duration": 13000000,
               "status": "passed"
             },
             "line": 8,
@@ -205,7 +205,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-07-01T14:33:03.626Z",
+        "start_timestamp": "2022-07-01T14:42:28.670Z",
         "line": 15,
         "name": "Verify success scenarios with creating users with valid credentials",
         "description": "",
@@ -263,7 +263,7 @@
           },
           {
             "result": {
-              "duration": 1033000000,
+              "duration": 1050000000,
               "status": "passed"
             },
             "line": 7,
@@ -275,7 +275,7 @@
           },
           {
             "result": {
-              "duration": 13000000,
+              "duration": 14000000,
               "status": "passed"
             },
             "line": 8,
@@ -287,7 +287,7 @@
           },
           {
             "result": {
-              "duration": 2000000,
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 9,
@@ -306,7 +306,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-07-01T14:33:04.688Z",
+        "start_timestamp": "2022-07-01T14:42:29.756Z",
         "line": 16,
         "name": "Verify success scenarios with creating users with valid credentials",
         "description": "",
@@ -316,7 +316,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1000000,
+              "duration": 2000000,
               "status": "passed"
             },
             "line": 5,
@@ -364,7 +364,7 @@
           },
           {
             "result": {
-              "duration": 1136000000,
+              "duration": 1137000000,
               "status": "passed"
             },
             "line": 7,
@@ -376,7 +376,7 @@
           },
           {
             "result": {
-              "duration": 10000000,
+              "duration": 9000000,
               "status": "passed"
             },
             "line": 8,
@@ -406,7 +406,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-07-01T14:33:05.852Z",
+        "start_timestamp": "2022-07-01T14:42:30.919Z",
         "line": 17,
         "name": "Verify success scenarios with creating users with valid credentials",
         "description": "",
@@ -464,7 +464,7 @@
           },
           {
             "result": {
-              "duration": 1020000000,
+              "duration": 1403000000,
               "status": "passed"
             },
             "line": 7,
@@ -476,7 +476,7 @@
           },
           {
             "result": {
-              "duration": 11000000,
+              "duration": 9000000,
               "status": "passed"
             },
             "line": 8,
@@ -507,7 +507,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-07-01T14:33:06.896Z",
+        "start_timestamp": "2022-07-01T14:42:32.344Z",
         "line": 18,
         "name": "Verify success scenarios with creating users with valid credentials",
         "description": "",
@@ -517,7 +517,6 @@
         "steps": [
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "line": 5,
@@ -565,7 +564,7 @@
           },
           {
             "result": {
-              "duration": 979000000,
+              "duration": 984000000,
               "status": "passed"
             },
             "line": 7,
@@ -577,7 +576,7 @@
           },
           {
             "result": {
-              "duration": 7000000,
+              "duration": 9000000,
               "status": "passed"
             },
             "line": 8,
@@ -608,7 +607,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-07-01T14:33:07.893Z",
+        "start_timestamp": "2022-07-01T14:42:33.349Z",
         "line": 19,
         "name": "Verify success scenarios with creating users with valid credentials",
         "description": "",
@@ -636,7 +635,7 @@
           },
           {
             "result": {
-              "duration": 2000000,
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 6,
@@ -666,107 +665,7 @@
           },
           {
             "result": {
-              "duration": 1036000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "I send POST method",
-            "match": {
-              "location": "steps.BaseStepDefs.iSendPOSTMethod()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 8000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "I should see the body has id as not empty",
-            "match": {
-              "location": "steps.CREATEUsers.iShouldSeeTheBodyHasIdAsNotEmpty()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "I should see status code \"200\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "200",
-                  "offset": 26
-                }
-              ],
-              "location": "steps.BaseStepDefs.iShouldSeeStatusCode(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-07-01T14:33:08.949Z",
-        "line": 20,
-        "name": "Verify success scenarios with creating users with valid credentials",
-        "description": "",
-        "id": "postusers;verify-success-scenarios-with-creating-users-with-valid-credentials;;9",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 1000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "My path is \"/users/\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "/users/",
-                  "offset": 12
-                }
-              ],
-              "location": "steps.BaseStepDefs.myPathIs(java.lang.String)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "I request create with \"jane\", \"doe\", \"doejj12\", \"123456Aa*\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "jane",
-                  "offset": 23
-                },
-                {
-                  "val": "doe",
-                  "offset": 31
-                },
-                {
-                  "val": "doejj12",
-                  "offset": 38
-                },
-                {
-                  "val": "123456Aa*",
-                  "offset": 49
-                }
-              ],
-              "location": "steps.CREATEUsers.iRequestCreateWith(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1072000000,
+              "duration": 934000000,
               "status": "passed"
             },
             "line": 7,
@@ -809,7 +708,108 @@
         ]
       },
       {
-        "start_timestamp": "2022-07-01T14:33:10.044Z",
+        "start_timestamp": "2022-07-01T14:42:34.309Z",
+        "line": 20,
+        "name": "Verify success scenarios with creating users with valid credentials",
+        "description": "",
+        "id": "postusers;verify-success-scenarios-with-creating-users-with-valid-credentials;;9",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "My path is \"/users/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "/users/",
+                  "offset": 12
+                }
+              ],
+              "location": "steps.BaseStepDefs.myPathIs(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I request create with \"jane\", \"doe\", \"doejj12\", \"123456Aa*\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jane",
+                  "offset": 23
+                },
+                {
+                  "val": "doe",
+                  "offset": 31
+                },
+                {
+                  "val": "doejj12",
+                  "offset": 38
+                },
+                {
+                  "val": "123456Aa*",
+                  "offset": 49
+                }
+              ],
+              "location": "steps.CREATEUsers.iRequestCreateWith(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1188000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I send POST method",
+            "match": {
+              "location": "steps.BaseStepDefs.iSendPOSTMethod()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should see the body has id as not empty",
+            "match": {
+              "location": "steps.CREATEUsers.iShouldSeeTheBodyHasIdAsNotEmpty()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should see status code \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 26
+                }
+              ],
+              "location": "steps.BaseStepDefs.iShouldSeeStatusCode(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-01T14:42:35.521Z",
         "line": 21,
         "name": "Verify success scenarios with creating users with valid credentials",
         "description": "",
@@ -867,7 +867,7 @@
           },
           {
             "result": {
-              "duration": 1001000000,
+              "duration": 979000000,
               "status": "passed"
             },
             "line": 7,
@@ -910,7 +910,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-07-01T14:33:11.070Z",
+        "start_timestamp": "2022-07-01T14:42:36.519Z",
         "line": 22,
         "name": "Verify success scenarios with creating users with valid credentials",
         "description": "",
@@ -920,7 +920,6 @@
         "steps": [
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "line": 5,
@@ -968,7 +967,7 @@
           },
           {
             "result": {
-              "duration": 947000000,
+              "duration": 977000000,
               "status": "passed"
             },
             "line": 7,
@@ -980,7 +979,7 @@
           },
           {
             "result": {
-              "duration": 11000000,
+              "duration": 9000000,
               "status": "passed"
             },
             "line": 8,
@@ -1011,7 +1010,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-07-01T14:33:12.041Z",
+        "start_timestamp": "2022-07-01T14:42:37.518Z",
         "line": 33,
         "name": "Verify non-success scenarios when creating a user with an invalid user credentials",
         "description": "",
@@ -1069,7 +1068,7 @@
           },
           {
             "result": {
-              "duration": 984000000,
+              "duration": 1145000000,
               "status": "passed"
             },
             "line": 27,
@@ -1081,7 +1080,7 @@
           },
           {
             "result": {
-              "duration": 7000000,
+              "duration": 8000000,
               "status": "passed"
             },
             "line": 28,
@@ -1094,7 +1093,7 @@
           {
             "result": {
               "error_message": "java.lang.AssertionError: \nExpected: \"400\"\n     but: was \"200\"\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)\n\tat steps.BaseStepDefs.iShouldSeeStatusCode(BaseStepDefs.java:28)\n\tat ✽.I should see status code \"400\"(file:///Users/ecemyilmaz/Desktop/RestAssured_/src/test/java/features/CREATEUsers.feature:29)\n",
-              "duration": 2000000,
+              "duration": 3000000,
               "status": "failed"
             },
             "line": 29,
@@ -1113,7 +1112,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-07-01T14:33:13.057Z",
+        "start_timestamp": "2022-07-01T14:42:38.700Z",
         "line": 34,
         "name": "Verify non-success scenarios when creating a user with an invalid user credentials",
         "description": "",
@@ -1123,6 +1122,7 @@
         "steps": [
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 25,
@@ -1140,7 +1140,7 @@
           },
           {
             "result": {
-              "duration": 1000000,
+              "duration": 2000000,
               "status": "passed"
             },
             "line": 26,
@@ -1170,7 +1170,7 @@
           },
           {
             "result": {
-              "duration": 938000000,
+              "duration": 1097000000,
               "status": "passed"
             },
             "line": 27,
@@ -1182,7 +1182,7 @@
           },
           {
             "result": {
-              "duration": 10000000,
+              "duration": 9000000,
               "status": "passed"
             },
             "line": 28,
@@ -1195,7 +1195,6 @@
           {
             "result": {
               "error_message": "java.lang.AssertionError: \nExpected: \"400\"\n     but: was \"200\"\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)\n\tat steps.BaseStepDefs.iShouldSeeStatusCode(BaseStepDefs.java:28)\n\tat ✽.I should see status code \"400\"(file:///Users/ecemyilmaz/Desktop/RestAssured_/src/test/java/features/CREATEUsers.feature:29)\n",
-              "duration": 1000000,
               "status": "failed"
             },
             "line": 29,
@@ -1214,7 +1213,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-07-01T14:33:14.018Z",
+        "start_timestamp": "2022-07-01T14:42:39.818Z",
         "line": 35,
         "name": "Verify non-success scenarios when creating a user with an invalid user credentials",
         "description": "",
@@ -1224,7 +1223,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2000000,
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 25,
@@ -1272,7 +1271,7 @@
           },
           {
             "result": {
-              "duration": 994000000,
+              "duration": 958000000,
               "status": "passed"
             },
             "line": 27,
@@ -1284,7 +1283,7 @@
           },
           {
             "result": {
-              "duration": 7000000,
+              "duration": 9000000,
               "status": "passed"
             },
             "line": 28,
@@ -1316,7 +1315,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-07-01T14:33:15.032Z",
+        "start_timestamp": "2022-07-01T14:42:40.797Z",
         "line": 36,
         "name": "Verify non-success scenarios when creating a user with an invalid user credentials",
         "description": "",
@@ -1374,7 +1373,7 @@
           },
           {
             "result": {
-              "duration": 1046000000,
+              "duration": 966000000,
               "status": "passed"
             },
             "line": 27,
@@ -1418,7 +1417,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-07-01T14:33:16.100Z",
+        "start_timestamp": "2022-07-01T14:42:41.786Z",
         "line": 37,
         "name": "Verify non-success scenarios when creating a user with an invalid user credentials",
         "description": "",
@@ -1476,7 +1475,7 @@
           },
           {
             "result": {
-              "duration": 995000000,
+              "duration": 1065000000,
               "status": "passed"
             },
             "line": 27,
@@ -1488,7 +1487,7 @@
           },
           {
             "result": {
-              "duration": 8000000,
+              "duration": 9000000,
               "status": "passed"
             },
             "line": 28,
@@ -1501,6 +1500,7 @@
           {
             "result": {
               "error_message": "java.lang.AssertionError: \nExpected: \"400\"\n     but: was \"200\"\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)\n\tat steps.BaseStepDefs.iShouldSeeStatusCode(BaseStepDefs.java:28)\n\tat ✽.I should see status code \"400\"(file:///Users/ecemyilmaz/Desktop/RestAssured_/src/test/java/features/CREATEUsers.feature:29)\n",
+              "duration": 1000000,
               "status": "failed"
             },
             "line": 29,
@@ -1519,7 +1519,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-07-01T14:33:17.117Z",
+        "start_timestamp": "2022-07-01T14:42:42.875Z",
         "line": 38,
         "name": "Verify non-success scenarios when creating a user with an invalid user credentials",
         "description": "",
@@ -1529,7 +1529,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1000000,
+              "duration": 2000000,
               "status": "passed"
             },
             "line": 25,
@@ -1547,7 +1547,7 @@
           },
           {
             "result": {
-              "duration": 4000000,
+              "duration": 3000000,
               "status": "passed"
             },
             "line": 26,
@@ -1577,7 +1577,211 @@
           },
           {
             "result": {
-              "duration": 974000000,
+              "duration": 981000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I send POST method",
+            "match": {
+              "location": "steps.BaseStepDefs.iSendPOSTMethod()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I should see the body has id as not empty",
+            "match": {
+              "location": "steps.CREATEUsers.iShouldSeeTheBodyHasIdAsNotEmpty()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: \nExpected: \"400\"\n     but: was \"200\"\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)\n\tat steps.BaseStepDefs.iShouldSeeStatusCode(BaseStepDefs.java:28)\n\tat ✽.I should see status code \"400\"(file:///Users/ecemyilmaz/Desktop/RestAssured_/src/test/java/features/CREATEUsers.feature:29)\n",
+              "duration": 1000000,
+              "status": "failed"
+            },
+            "line": 29,
+            "name": "I should see status code \"400\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 26
+                }
+              ],
+              "location": "steps.BaseStepDefs.iShouldSeeStatusCode(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-01T14:42:43.880Z",
+        "line": 39,
+        "name": "Verify non-success scenarios when creating a user with an invalid user credentials",
+        "description": "",
+        "id": "postusers;verify-non-success-scenarios-when-creating-a-user-with-an-invalid-user-credentials;;8",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "My path is \"/users/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "/users/",
+                  "offset": 12
+                }
+              ],
+              "location": "steps.BaseStepDefs.myPathIs(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I request create with \"jane\", \"d\", \"doejj\", \"123456Aa*\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jane",
+                  "offset": 23
+                },
+                {
+                  "val": "d",
+                  "offset": 31
+                },
+                {
+                  "val": "doejj",
+                  "offset": 36
+                },
+                {
+                  "val": "123456Aa*",
+                  "offset": 45
+                }
+              ],
+              "location": "steps.CREATEUsers.iRequestCreateWith(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 984000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I send POST method",
+            "match": {
+              "location": "steps.BaseStepDefs.iSendPOSTMethod()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I should see the body has id as not empty",
+            "match": {
+              "location": "steps.CREATEUsers.iShouldSeeTheBodyHasIdAsNotEmpty()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: \nExpected: \"400\"\n     but: was \"200\"\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)\n\tat steps.BaseStepDefs.iShouldSeeStatusCode(BaseStepDefs.java:28)\n\tat ✽.I should see status code \"400\"(file:///Users/ecemyilmaz/Desktop/RestAssured_/src/test/java/features/CREATEUsers.feature:29)\n",
+              "duration": 1000000,
+              "status": "failed"
+            },
+            "line": 29,
+            "name": "I should see status code \"400\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 26
+                }
+              ],
+              "location": "steps.BaseStepDefs.iShouldSeeStatusCode(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-01T14:42:44.884Z",
+        "line": 40,
+        "name": "Verify non-success scenarios when creating a user with an invalid user credentials",
+        "description": "",
+        "id": "postusers;verify-non-success-scenarios-when-creating-a-user-with-an-invalid-user-credentials;;9",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "My path is \"/users/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "/users/",
+                  "offset": 12
+                }
+              ],
+              "location": "steps.BaseStepDefs.myPathIs(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I request create with \"jane\", \"123\", \"doejj\", \"123456Aa*\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jane",
+                  "offset": 23
+                },
+                {
+                  "val": "123",
+                  "offset": 31
+                },
+                {
+                  "val": "doejj",
+                  "offset": 38
+                },
+                {
+                  "val": "123456Aa*",
+                  "offset": 47
+                }
+              ],
+              "location": "steps.CREATEUsers.iRequestCreateWith(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 933000000,
               "status": "passed"
             },
             "line": 27,
@@ -1621,210 +1825,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-07-01T14:33:18.122Z",
-        "line": 39,
-        "name": "Verify non-success scenarios when creating a user with an invalid user credentials",
-        "description": "",
-        "id": "postusers;verify-non-success-scenarios-when-creating-a-user-with-an-invalid-user-credentials;;8",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 1000000,
-              "status": "passed"
-            },
-            "line": 25,
-            "name": "My path is \"/users/\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "/users/",
-                  "offset": 12
-                }
-              ],
-              "location": "steps.BaseStepDefs.myPathIs(java.lang.String)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 2000000,
-              "status": "passed"
-            },
-            "line": 26,
-            "name": "I request create with \"jane\", \"d\", \"doejj\", \"123456Aa*\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "jane",
-                  "offset": 23
-                },
-                {
-                  "val": "d",
-                  "offset": 31
-                },
-                {
-                  "val": "doejj",
-                  "offset": 36
-                },
-                {
-                  "val": "123456Aa*",
-                  "offset": 45
-                }
-              ],
-              "location": "steps.CREATEUsers.iRequestCreateWith(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 961000000,
-              "status": "passed"
-            },
-            "line": 27,
-            "name": "I send POST method",
-            "match": {
-              "location": "steps.BaseStepDefs.iSendPOSTMethod()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 9000000,
-              "status": "passed"
-            },
-            "line": 28,
-            "name": "I should see the body has id as not empty",
-            "match": {
-              "location": "steps.CREATEUsers.iShouldSeeTheBodyHasIdAsNotEmpty()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "error_message": "java.lang.AssertionError: \nExpected: \"400\"\n     but: was \"200\"\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)\n\tat steps.BaseStepDefs.iShouldSeeStatusCode(BaseStepDefs.java:28)\n\tat ✽.I should see status code \"400\"(file:///Users/ecemyilmaz/Desktop/RestAssured_/src/test/java/features/CREATEUsers.feature:29)\n",
-              "status": "failed"
-            },
-            "line": 29,
-            "name": "I should see status code \"400\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "400",
-                  "offset": 26
-                }
-              ],
-              "location": "steps.BaseStepDefs.iShouldSeeStatusCode(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-07-01T14:33:19.113Z",
-        "line": 40,
-        "name": "Verify non-success scenarios when creating a user with an invalid user credentials",
-        "description": "",
-        "id": "postusers;verify-non-success-scenarios-when-creating-a-user-with-an-invalid-user-credentials;;9",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 2000000,
-              "status": "passed"
-            },
-            "line": 25,
-            "name": "My path is \"/users/\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "/users/",
-                  "offset": 12
-                }
-              ],
-              "location": "steps.BaseStepDefs.myPathIs(java.lang.String)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 2000000,
-              "status": "passed"
-            },
-            "line": 26,
-            "name": "I request create with \"jane\", \"123\", \"doejj\", \"123456Aa*\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "jane",
-                  "offset": 23
-                },
-                {
-                  "val": "123",
-                  "offset": 31
-                },
-                {
-                  "val": "doejj",
-                  "offset": 38
-                },
-                {
-                  "val": "123456Aa*",
-                  "offset": 47
-                }
-              ],
-              "location": "steps.CREATEUsers.iRequestCreateWith(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1079000000,
-              "status": "passed"
-            },
-            "line": 27,
-            "name": "I send POST method",
-            "match": {
-              "location": "steps.BaseStepDefs.iSendPOSTMethod()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 8000000,
-              "status": "passed"
-            },
-            "line": 28,
-            "name": "I should see the body has id as not empty",
-            "match": {
-              "location": "steps.CREATEUsers.iShouldSeeTheBodyHasIdAsNotEmpty()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "error_message": "java.lang.AssertionError: \nExpected: \"400\"\n     but: was \"200\"\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)\n\tat steps.BaseStepDefs.iShouldSeeStatusCode(BaseStepDefs.java:28)\n\tat ✽.I should see status code \"400\"(file:///Users/ecemyilmaz/Desktop/RestAssured_/src/test/java/features/CREATEUsers.feature:29)\n",
-              "duration": 1000000,
-              "status": "failed"
-            },
-            "line": 29,
-            "name": "I should see status code \"400\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "400",
-                  "offset": 26
-                }
-              ],
-              "location": "steps.BaseStepDefs.iShouldSeeStatusCode(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-07-01T14:33:20.217Z",
+        "start_timestamp": "2022-07-01T14:42:45.851Z",
         "line": 41,
         "name": "Verify non-success scenarios when creating a user with an invalid user credentials",
         "description": "",
@@ -1882,7 +1883,7 @@
           },
           {
             "result": {
-              "duration": 983000000,
+              "duration": 930000000,
               "status": "passed"
             },
             "line": 27,
@@ -1894,7 +1895,7 @@
           },
           {
             "result": {
-              "duration": 9000000,
+              "duration": 8000000,
               "status": "passed"
             },
             "line": 28,
@@ -1907,7 +1908,6 @@
           {
             "result": {
               "error_message": "java.lang.AssertionError: \nExpected: \"400\"\n     but: was \"200\"\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)\n\tat steps.BaseStepDefs.iShouldSeeStatusCode(BaseStepDefs.java:28)\n\tat ✽.I should see status code \"400\"(file:///Users/ecemyilmaz/Desktop/RestAssured_/src/test/java/features/CREATEUsers.feature:29)\n",
-              "duration": 1000000,
               "status": "failed"
             },
             "line": 29,
@@ -1926,7 +1926,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-07-01T14:33:21.219Z",
+        "start_timestamp": "2022-07-01T14:42:46.827Z",
         "line": 42,
         "name": "Verify non-success scenarios when creating a user with an invalid user credentials",
         "description": "",
@@ -1984,7 +1984,311 @@
           },
           {
             "result": {
-              "duration": 922000000,
+              "duration": 1057000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I send POST method",
+            "match": {
+              "location": "steps.BaseStepDefs.iSendPOSTMethod()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I should see the body has id as not empty",
+            "match": {
+              "location": "steps.CREATEUsers.iShouldSeeTheBodyHasIdAsNotEmpty()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: \nExpected: \"400\"\n     but: was \"200\"\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)\n\tat steps.BaseStepDefs.iShouldSeeStatusCode(BaseStepDefs.java:28)\n\tat ✽.I should see status code \"400\"(file:///Users/ecemyilmaz/Desktop/RestAssured_/src/test/java/features/CREATEUsers.feature:29)\n",
+              "duration": 1000000,
+              "status": "failed"
+            },
+            "line": 29,
+            "name": "I should see status code \"400\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 26
+                }
+              ],
+              "location": "steps.BaseStepDefs.iShouldSeeStatusCode(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-01T14:42:47.906Z",
+        "line": 43,
+        "name": "Verify non-success scenarios when creating a user with an invalid user credentials",
+        "description": "",
+        "id": "postusers;verify-non-success-scenarios-when-creating-a-user-with-an-invalid-user-credentials;;12",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "My path is \"/users/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "/users/",
+                  "offset": 12
+                }
+              ],
+              "location": "steps.BaseStepDefs.myPathIs(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I request create with \"jane\", \"doedoedoedoedoedoedoedoedoedoedoedoedoedoedoedoedoe\", \"doejj\", \"123456Aa*\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jane",
+                  "offset": 23
+                },
+                {
+                  "val": "doedoedoedoedoedoedoedoedoedoedoedoedoedoedoedoedoe",
+                  "offset": 31
+                },
+                {
+                  "val": "doejj",
+                  "offset": 86
+                },
+                {
+                  "val": "123456Aa*",
+                  "offset": 95
+                }
+              ],
+              "location": "steps.CREATEUsers.iRequestCreateWith(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 999000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I send POST method",
+            "match": {
+              "location": "steps.BaseStepDefs.iSendPOSTMethod()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I should see the body has id as not empty",
+            "match": {
+              "location": "steps.CREATEUsers.iShouldSeeTheBodyHasIdAsNotEmpty()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: \nExpected: \"400\"\n     but: was \"200\"\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)\n\tat steps.BaseStepDefs.iShouldSeeStatusCode(BaseStepDefs.java:28)\n\tat ✽.I should see status code \"400\"(file:///Users/ecemyilmaz/Desktop/RestAssured_/src/test/java/features/CREATEUsers.feature:29)\n",
+              "status": "failed"
+            },
+            "line": 29,
+            "name": "I should see status code \"400\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 26
+                }
+              ],
+              "location": "steps.BaseStepDefs.iShouldSeeStatusCode(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-01T14:42:48.923Z",
+        "line": 44,
+        "name": "Verify non-success scenarios when creating a user with an invalid user credentials",
+        "description": "",
+        "id": "postusers;verify-non-success-scenarios-when-creating-a-user-with-an-invalid-user-credentials;;13",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "My path is \"/users/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "/users/",
+                  "offset": 12
+                }
+              ],
+              "location": "steps.BaseStepDefs.myPathIs(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I request create with \"jane\", \"doe\", \"\", \"123456Aa*\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jane",
+                  "offset": 23
+                },
+                {
+                  "val": "doe",
+                  "offset": 31
+                },
+                {
+                  "val": "",
+                  "offset": 38
+                },
+                {
+                  "val": "123456Aa*",
+                  "offset": 42
+                }
+              ],
+              "location": "steps.CREATEUsers.iRequestCreateWith(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 979000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I send POST method",
+            "match": {
+              "location": "steps.BaseStepDefs.iSendPOSTMethod()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I should see the body has id as not empty",
+            "match": {
+              "location": "steps.CREATEUsers.iShouldSeeTheBodyHasIdAsNotEmpty()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: \nExpected: \"400\"\n     but: was \"200\"\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)\n\tat steps.BaseStepDefs.iShouldSeeStatusCode(BaseStepDefs.java:28)\n\tat ✽.I should see status code \"400\"(file:///Users/ecemyilmaz/Desktop/RestAssured_/src/test/java/features/CREATEUsers.feature:29)\n",
+              "status": "failed"
+            },
+            "line": 29,
+            "name": "I should see status code \"400\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 26
+                }
+              ],
+              "location": "steps.BaseStepDefs.iShouldSeeStatusCode(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-01T14:42:49.923Z",
+        "line": 45,
+        "name": "Verify non-success scenarios when creating a user with an invalid user credentials",
+        "description": "",
+        "id": "postusers;verify-non-success-scenarios-when-creating-a-user-with-an-invalid-user-credentials;;14",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "My path is \"/users/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "/users/",
+                  "offset": 12
+                }
+              ],
+              "location": "steps.BaseStepDefs.myPathIs(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I request create with \"jane\", \"doe\", \"doe\", \"123456Aa*\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jane",
+                  "offset": 23
+                },
+                {
+                  "val": "doe",
+                  "offset": 31
+                },
+                {
+                  "val": "doe",
+                  "offset": 38
+                },
+                {
+                  "val": "123456Aa*",
+                  "offset": 45
+                }
+              ],
+              "location": "steps.CREATEUsers.iRequestCreateWith(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 963000000,
               "status": "passed"
             },
             "line": 27,
@@ -2028,311 +2332,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-07-01T14:33:22.164Z",
-        "line": 43,
-        "name": "Verify non-success scenarios when creating a user with an invalid user credentials",
-        "description": "",
-        "id": "postusers;verify-non-success-scenarios-when-creating-a-user-with-an-invalid-user-credentials;;12",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 1000000,
-              "status": "passed"
-            },
-            "line": 25,
-            "name": "My path is \"/users/\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "/users/",
-                  "offset": 12
-                }
-              ],
-              "location": "steps.BaseStepDefs.myPathIs(java.lang.String)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 2000000,
-              "status": "passed"
-            },
-            "line": 26,
-            "name": "I request create with \"jane\", \"doedoedoedoedoedoedoedoedoedoedoedoedoedoedoedoedoe\", \"doejj\", \"123456Aa*\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "jane",
-                  "offset": 23
-                },
-                {
-                  "val": "doedoedoedoedoedoedoedoedoedoedoedoedoedoedoedoedoe",
-                  "offset": 31
-                },
-                {
-                  "val": "doejj",
-                  "offset": 86
-                },
-                {
-                  "val": "123456Aa*",
-                  "offset": 95
-                }
-              ],
-              "location": "steps.CREATEUsers.iRequestCreateWith(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 998000000,
-              "status": "passed"
-            },
-            "line": 27,
-            "name": "I send POST method",
-            "match": {
-              "location": "steps.BaseStepDefs.iSendPOSTMethod()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 8000000,
-              "status": "passed"
-            },
-            "line": 28,
-            "name": "I should see the body has id as not empty",
-            "match": {
-              "location": "steps.CREATEUsers.iShouldSeeTheBodyHasIdAsNotEmpty()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "error_message": "java.lang.AssertionError: \nExpected: \"400\"\n     but: was \"200\"\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)\n\tat steps.BaseStepDefs.iShouldSeeStatusCode(BaseStepDefs.java:28)\n\tat ✽.I should see status code \"400\"(file:///Users/ecemyilmaz/Desktop/RestAssured_/src/test/java/features/CREATEUsers.feature:29)\n",
-              "duration": 2000000,
-              "status": "failed"
-            },
-            "line": 29,
-            "name": "I should see status code \"400\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "400",
-                  "offset": 26
-                }
-              ],
-              "location": "steps.BaseStepDefs.iShouldSeeStatusCode(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-07-01T14:33:23.185Z",
-        "line": 44,
-        "name": "Verify non-success scenarios when creating a user with an invalid user credentials",
-        "description": "",
-        "id": "postusers;verify-non-success-scenarios-when-creating-a-user-with-an-invalid-user-credentials;;13",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 1000000,
-              "status": "passed"
-            },
-            "line": 25,
-            "name": "My path is \"/users/\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "/users/",
-                  "offset": 12
-                }
-              ],
-              "location": "steps.BaseStepDefs.myPathIs(java.lang.String)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 2000000,
-              "status": "passed"
-            },
-            "line": 26,
-            "name": "I request create with \"jane\", \"doe\", \"\", \"123456Aa*\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "jane",
-                  "offset": 23
-                },
-                {
-                  "val": "doe",
-                  "offset": 31
-                },
-                {
-                  "val": "",
-                  "offset": 38
-                },
-                {
-                  "val": "123456Aa*",
-                  "offset": 42
-                }
-              ],
-              "location": "steps.CREATEUsers.iRequestCreateWith(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1095000000,
-              "status": "passed"
-            },
-            "line": 27,
-            "name": "I send POST method",
-            "match": {
-              "location": "steps.BaseStepDefs.iSendPOSTMethod()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 5000000,
-              "status": "passed"
-            },
-            "line": 28,
-            "name": "I should see the body has id as not empty",
-            "match": {
-              "location": "steps.CREATEUsers.iShouldSeeTheBodyHasIdAsNotEmpty()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "error_message": "java.lang.AssertionError: \nExpected: \"400\"\n     but: was \"200\"\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)\n\tat steps.BaseStepDefs.iShouldSeeStatusCode(BaseStepDefs.java:28)\n\tat ✽.I should see status code \"400\"(file:///Users/ecemyilmaz/Desktop/RestAssured_/src/test/java/features/CREATEUsers.feature:29)\n",
-              "status": "failed"
-            },
-            "line": 29,
-            "name": "I should see status code \"400\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "400",
-                  "offset": 26
-                }
-              ],
-              "location": "steps.BaseStepDefs.iShouldSeeStatusCode(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-07-01T14:33:24.295Z",
-        "line": 45,
-        "name": "Verify non-success scenarios when creating a user with an invalid user credentials",
-        "description": "",
-        "id": "postusers;verify-non-success-scenarios-when-creating-a-user-with-an-invalid-user-credentials;;14",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 1000000,
-              "status": "passed"
-            },
-            "line": 25,
-            "name": "My path is \"/users/\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "/users/",
-                  "offset": 12
-                }
-              ],
-              "location": "steps.BaseStepDefs.myPathIs(java.lang.String)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1000000,
-              "status": "passed"
-            },
-            "line": 26,
-            "name": "I request create with \"jane\", \"doe\", \"doe\", \"123456Aa*\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "jane",
-                  "offset": 23
-                },
-                {
-                  "val": "doe",
-                  "offset": 31
-                },
-                {
-                  "val": "doe",
-                  "offset": 38
-                },
-                {
-                  "val": "123456Aa*",
-                  "offset": 45
-                }
-              ],
-              "location": "steps.CREATEUsers.iRequestCreateWith(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1098000000,
-              "status": "passed"
-            },
-            "line": 27,
-            "name": "I send POST method",
-            "match": {
-              "location": "steps.BaseStepDefs.iSendPOSTMethod()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 6000000,
-              "status": "passed"
-            },
-            "line": 28,
-            "name": "I should see the body has id as not empty",
-            "match": {
-              "location": "steps.CREATEUsers.iShouldSeeTheBodyHasIdAsNotEmpty()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "error_message": "java.lang.AssertionError: \nExpected: \"400\"\n     but: was \"200\"\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)\n\tat steps.BaseStepDefs.iShouldSeeStatusCode(BaseStepDefs.java:28)\n\tat ✽.I should see status code \"400\"(file:///Users/ecemyilmaz/Desktop/RestAssured_/src/test/java/features/CREATEUsers.feature:29)\n",
-              "status": "failed"
-            },
-            "line": 29,
-            "name": "I should see status code \"400\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "400",
-                  "offset": 26
-                }
-              ],
-              "location": "steps.BaseStepDefs.iShouldSeeStatusCode(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-07-01T14:33:25.410Z",
+        "start_timestamp": "2022-07-01T14:42:50.908Z",
         "line": 46,
         "name": "Verify non-success scenarios when creating a user with an invalid user credentials",
         "description": "",
@@ -2390,7 +2390,7 @@
           },
           {
             "result": {
-              "duration": 969000000,
+              "duration": 1176000000,
               "status": "passed"
             },
             "line": 27,
@@ -2402,7 +2402,7 @@
           },
           {
             "result": {
-              "duration": 5000000,
+              "duration": 8000000,
               "status": "passed"
             },
             "line": 28,
@@ -2444,7 +2444,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-07-01T14:33:26.394Z",
+        "start_timestamp": "2022-07-01T14:42:52.105Z",
         "line": 4,
         "name": "Verify that status code with user list request",
         "description": "",
@@ -2454,6 +2454,7 @@
         "steps": [
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 5,
@@ -2471,7 +2472,7 @@
           },
           {
             "result": {
-              "duration": 1174000000,
+              "duration": 1204000000,
               "status": "passed"
             },
             "line": 6,
@@ -2501,7 +2502,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-07-01T14:33:27.579Z",
+        "start_timestamp": "2022-07-01T14:42:53.326Z",
         "line": 16,
         "name": "Verify the user credentials field with user list request",
         "description": "",
@@ -2529,7 +2530,7 @@
           },
           {
             "result": {
-              "duration": 948000000,
+              "duration": 1038000000,
               "status": "passed"
             },
             "line": 12,
@@ -2541,7 +2542,7 @@
           },
           {
             "result": {
-              "duration": 3000000,
+              "duration": 2000000,
               "status": "passed"
             },
             "line": 13,
@@ -2568,7 +2569,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-07-01T14:33:28.539Z",
+        "start_timestamp": "2022-07-01T14:42:54.375Z",
         "line": 24,
         "name": "Verify that status code with user by id",
         "description": "",
@@ -2596,7 +2597,7 @@
           },
           {
             "result": {
-              "duration": 960000000,
+              "duration": 1037000000,
               "status": "passed"
             },
             "line": 20,
@@ -2633,7 +2634,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-07-01T14:33:29.510Z",
+        "start_timestamp": "2022-07-01T14:42:55.424Z",
         "line": 32,
         "name": "Verify the user credentials field with user by id",
         "description": "",
@@ -2661,7 +2662,7 @@
           },
           {
             "result": {
-              "duration": 982000000,
+              "duration": 966000000,
               "status": "passed"
             },
             "line": 28,
@@ -2679,7 +2680,7 @@
           },
           {
             "result": {
-              "duration": 1000000,
+              "duration": 2000000,
               "status": "passed"
             },
             "line": 29,
@@ -2717,7 +2718,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-07-01T14:33:30.504Z",
+        "start_timestamp": "2022-07-01T14:42:56.407Z",
         "line": 11,
         "name": "Verify that delete operation successfully",
         "description": "",
@@ -2755,7 +2756,7 @@
           },
           {
             "result": {
-              "duration": 978000000,
+              "duration": 996000000,
               "status": "passed"
             },
             "line": 7,
@@ -2792,8 +2793,8 @@
         ]
       },
       {
-        "start_timestamp": "2022-07-01T14:33:31.495Z",
-        "line": 21,
+        "start_timestamp": "2022-07-01T14:42:57.418Z",
+        "line": 20,
         "name": "Verify that delete operation with invalid userID unsuccessful",
         "description": "",
         "id": "deleteusers;verify-that-delete-operation-with-invalid-userid-unsuccessful;;2",
@@ -2802,7 +2803,6 @@
         "steps": [
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "line": 14,
@@ -2832,7 +2832,7 @@
           },
           {
             "result": {
-              "duration": 973000000,
+              "duration": 1019000000,
               "status": "passed"
             },
             "line": 16,
@@ -2850,22 +2850,11 @@
           },
           {
             "result": {
+              "error_message": "java.lang.AssertionError: \nExpected: \"403\"\n     but: was \"404\"\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)\n\tat steps.BaseStepDefs.iShouldSeeStatusCode(BaseStepDefs.java:28)\n\tat ✽.I should see status code \"403\"(file:///Users/ecemyilmaz/Desktop/RestAssured_/src/test/java/features/REMOVEUsers.feature:17)\n",
               "duration": 1000000,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "I should see the response body should be an empty",
-            "match": {
-              "location": "steps.REMOVEUsers.iShouldSeeTheResponseBodyShouldBeAnEmpty()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "error_message": "java.lang.AssertionError: \nExpected: \"403\"\n     but: was \"404\"\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)\n\tat steps.BaseStepDefs.iShouldSeeStatusCode(BaseStepDefs.java:28)\n\tat ✽.I should see status code \"403\"(file:///Users/ecemyilmaz/Desktop/RestAssured_/src/test/java/features/REMOVEUsers.feature:18)\n",
               "status": "failed"
             },
-            "line": 18,
+            "line": 17,
             "name": "I should see status code \"403\"",
             "match": {
               "arguments": [
@@ -2881,8 +2870,8 @@
         ]
       },
       {
-        "start_timestamp": "2022-07-01T14:33:32.484Z",
-        "line": 22,
+        "start_timestamp": "2022-07-01T14:42:58.449Z",
+        "line": 21,
         "name": "Verify that delete operation with invalid userID unsuccessful",
         "description": "",
         "id": "deleteusers;verify-that-delete-operation-with-invalid-userid-unsuccessful;;3",
@@ -2921,7 +2910,7 @@
           },
           {
             "result": {
-              "duration": 914000000,
+              "duration": 5035000000,
               "status": "passed"
             },
             "line": 16,
@@ -2939,23 +2928,11 @@
           },
           {
             "result": {
-              "error_message": "java.lang.NullPointerException\n\tat steps.REMOVEUsers.iShouldSeeTheResponseBodyShouldBeAnEmpty(REMOVEUsers.java:35)\n\tat ✽.I should see the response body should be an empty(file:///Users/ecemyilmaz/Desktop/RestAssured_/src/test/java/features/REMOVEUsers.feature:17)\n",
-              "duration": 2000000,
+              "error_message": "java.lang.AssertionError: \nExpected: \"403\"\n     but: was \"200\"\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)\n\tat steps.BaseStepDefs.iShouldSeeStatusCode(BaseStepDefs.java:28)\n\tat ✽.I should see status code \"403\"(file:///Users/ecemyilmaz/Desktop/RestAssured_/src/test/java/features/REMOVEUsers.feature:17)\n",
+              "duration": 1000000,
               "status": "failed"
             },
             "line": 17,
-            "name": "I should see the response body should be an empty",
-            "match": {
-              "location": "steps.REMOVEUsers.iShouldSeeTheResponseBodyShouldBeAnEmpty()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1000000,
-              "status": "skipped"
-            },
-            "line": 18,
             "name": "I should see status code \"403\"",
             "match": {
               "arguments": [
@@ -2982,7 +2959,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-07-01T14:33:33.411Z",
+        "start_timestamp": "2022-07-01T14:43:03.495Z",
         "line": 9,
         "name": "Verify that patch operation successfully",
         "description": "",
@@ -2992,7 +2969,6 @@
         "steps": [
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "line": 4,
@@ -3010,7 +2986,7 @@
           },
           {
             "result": {
-              "duration": 1516000000,
+              "duration": 1028000000,
               "status": "passed"
             },
             "line": 5,
@@ -3032,6 +3008,7 @@
           },
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 6,
@@ -3050,7 +3027,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-07-01T14:33:34.942Z",
+        "start_timestamp": "2022-07-01T14:43:04.539Z",
         "line": 10,
         "name": "Verify that patch operation successfully",
         "description": "",
@@ -3078,7 +3055,7 @@
           },
           {
             "result": {
-              "duration": 986000000,
+              "duration": 1028000000,
               "status": "passed"
             },
             "line": 5,
@@ -3100,7 +3077,6 @@
           },
           {
             "result": {
-              "duration": 2000000,
               "status": "passed"
             },
             "line": 6,
@@ -3119,7 +3095,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-07-01T14:33:35.939Z",
+        "start_timestamp": "2022-07-01T14:43:05.576Z",
         "line": 18,
         "name": "Verify that patch operation with invalid active body unsuccessfully",
         "description": "",
@@ -3147,7 +3123,7 @@
           },
           {
             "result": {
-              "duration": 964000000,
+              "duration": 1051000000,
               "status": "passed"
             },
             "line": 14,
@@ -3170,7 +3146,7 @@
           {
             "result": {
               "error_message": "java.lang.AssertionError: \nExpected: \"400\"\n     but: was \"200\"\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)\n\tat steps.BaseStepDefs.iShouldSeeStatusCode(BaseStepDefs.java:28)\n\tat ✽.I should see status code \"400\"(file:///Users/ecemyilmaz/Desktop/RestAssured_/src/test/java/features/SWITCHUsers.feature:15)\n",
-              "duration": 3000000,
+              "duration": 1000000,
               "status": "failed"
             },
             "line": 15,
@@ -3189,7 +3165,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-07-01T14:33:36.924Z",
+        "start_timestamp": "2022-07-01T14:43:06.639Z",
         "line": 19,
         "name": "Verify that patch operation with invalid active body unsuccessfully",
         "description": "",
@@ -3199,7 +3175,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2000000,
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 13,
@@ -3217,7 +3193,7 @@
           },
           {
             "result": {
-              "duration": 994000000,
+              "duration": 1018000000,
               "status": "passed"
             },
             "line": 14,
@@ -3240,7 +3216,6 @@
           {
             "result": {
               "error_message": "java.lang.AssertionError: \nExpected: \"400\"\n     but: was \"200\"\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)\n\tat steps.BaseStepDefs.iShouldSeeStatusCode(BaseStepDefs.java:28)\n\tat ✽.I should see status code \"400\"(file:///Users/ecemyilmaz/Desktop/RestAssured_/src/test/java/features/SWITCHUsers.feature:15)\n",
-              "duration": 1000000,
               "status": "failed"
             },
             "line": 15,
@@ -3270,7 +3245,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-07-01T14:33:37.930Z",
+        "start_timestamp": "2022-07-01T14:43:07.668Z",
         "line": 11,
         "name": "Verify that the update operation with valid user credentials successfully",
         "description": "",
@@ -3280,6 +3255,7 @@
         "steps": [
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 4,
@@ -3318,7 +3294,7 @@
           },
           {
             "result": {
-              "duration": 973000000,
+              "duration": 993000000,
               "status": "passed"
             },
             "line": 6,
@@ -3344,7 +3320,7 @@
           },
           {
             "result": {
-              "duration": 5000000,
+              "duration": 9000000,
               "status": "passed"
             },
             "line": 7,
@@ -3375,7 +3351,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-07-01T14:33:38.920Z",
+        "start_timestamp": "2022-07-01T14:43:08.685Z",
         "line": 12,
         "name": "Verify that the update operation with valid user credentials successfully",
         "description": "",
@@ -3425,7 +3401,7 @@
           },
           {
             "result": {
-              "duration": 989000000,
+              "duration": 930000000,
               "status": "passed"
             },
             "line": 6,
@@ -3451,7 +3427,7 @@
           },
           {
             "result": {
-              "duration": 6000000,
+              "duration": 9000000,
               "status": "passed"
             },
             "line": 7,
@@ -3481,7 +3457,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-07-01T14:33:39.922Z",
+        "start_timestamp": "2022-07-01T14:43:09.633Z",
         "line": 13,
         "name": "Verify that the update operation with valid user credentials successfully",
         "description": "",
@@ -3529,7 +3505,7 @@
           },
           {
             "result": {
-              "duration": 978000000,
+              "duration": 1179000000,
               "status": "passed"
             },
             "line": 6,
@@ -3555,7 +3531,7 @@
           },
           {
             "result": {
-              "duration": 9000000,
+              "duration": 12000000,
               "status": "passed"
             },
             "line": 7,
@@ -3567,6 +3543,7 @@
           },
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 8,
@@ -3585,7 +3562,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-07-01T14:33:40.917Z",
+        "start_timestamp": "2022-07-01T14:43:10.841Z",
         "line": 14,
         "name": "Verify that the update operation with valid user credentials successfully",
         "description": "",
@@ -3613,7 +3590,6 @@
           },
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "line": 5,
@@ -3635,7 +3611,7 @@
           },
           {
             "result": {
-              "duration": 973000000,
+              "duration": 1112000000,
               "status": "passed"
             },
             "line": 6,
@@ -3673,7 +3649,6 @@
           },
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "line": 8,
@@ -3692,7 +3667,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-07-01T14:33:41.909Z",
+        "start_timestamp": "2022-07-01T14:43:11.970Z",
         "line": 24,
         "name": "Verify that the update operation with invalid user credentials unsuccessfully",
         "description": "",
@@ -3742,7 +3717,7 @@
           },
           {
             "result": {
-              "duration": 1028000000,
+              "duration": 1173000000,
               "status": "passed"
             },
             "line": 19,
@@ -3800,7 +3775,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-07-01T14:33:42.962Z",
+        "start_timestamp": "2022-07-01T14:43:13.164Z",
         "line": 25,
         "name": "Verify that the update operation with invalid user credentials unsuccessfully",
         "description": "",
@@ -3850,7 +3825,7 @@
           },
           {
             "result": {
-              "duration": 965000000,
+              "duration": 1052000000,
               "status": "passed"
             },
             "line": 19,
@@ -3908,7 +3883,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-07-01T14:33:43.947Z",
+        "start_timestamp": "2022-07-01T14:43:14.235Z",
         "line": 26,
         "name": "Verify that the update operation with invalid user credentials unsuccessfully",
         "description": "",
@@ -3936,7 +3911,6 @@
           },
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "line": 18,
@@ -3958,7 +3932,7 @@
           },
           {
             "result": {
-              "duration": 996000000,
+              "duration": 990000000,
               "status": "passed"
             },
             "line": 19,
@@ -3997,7 +3971,6 @@
           {
             "result": {
               "error_message": "java.lang.AssertionError: \nExpected: \"400\"\n     but: was \"200\"\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)\n\tat steps.BaseStepDefs.iShouldSeeStatusCode(BaseStepDefs.java:28)\n\tat ✽.I should see status code \"400\"(file:///Users/ecemyilmaz/Desktop/RestAssured_/src/test/java/features/UPDATEUsers.feature:21)\n",
-              "duration": 1000000,
               "status": "failed"
             },
             "line": 21,
@@ -4016,7 +3989,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-07-01T14:33:44.965Z",
+        "start_timestamp": "2022-07-01T14:43:15.246Z",
         "line": 27,
         "name": "Verify that the update operation with invalid user credentials unsuccessfully",
         "description": "",
@@ -4026,6 +3999,7 @@
         "steps": [
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 17,
@@ -4065,7 +4039,7 @@
           },
           {
             "result": {
-              "duration": 946000000,
+              "duration": 992000000,
               "status": "passed"
             },
             "line": 19,
@@ -4091,7 +4065,7 @@
           },
           {
             "result": {
-              "duration": 6000000,
+              "duration": 7000000,
               "status": "passed"
             },
             "line": 20,
@@ -4122,7 +4096,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-07-01T14:33:45.928Z",
+        "start_timestamp": "2022-07-01T14:43:16.253Z",
         "line": 28,
         "name": "Verify that the update operation with invalid user credentials unsuccessfully",
         "description": "",
@@ -4172,7 +4146,7 @@
           },
           {
             "result": {
-              "duration": 1004000000,
+              "duration": 936000000,
               "status": "passed"
             },
             "line": 19,
@@ -4230,7 +4204,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-07-01T14:33:46.951Z",
+        "start_timestamp": "2022-07-01T14:43:17.207Z",
         "line": 29,
         "name": "Verify that the update operation with invalid user credentials unsuccessfully",
         "description": "",
@@ -4240,7 +4214,6 @@
         "steps": [
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "line": 17,
@@ -4258,7 +4231,6 @@
           },
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "line": 18,
@@ -4280,7 +4252,7 @@
           },
           {
             "result": {
-              "duration": 947000000,
+              "duration": 978000000,
               "status": "passed"
             },
             "line": 19,
@@ -4319,7 +4291,6 @@
           {
             "result": {
               "error_message": "java.lang.AssertionError: \nExpected: \"400\"\n     but: was \"200\"\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)\n\tat steps.BaseStepDefs.iShouldSeeStatusCode(BaseStepDefs.java:28)\n\tat ✽.I should see status code \"400\"(file:///Users/ecemyilmaz/Desktop/RestAssured_/src/test/java/features/UPDATEUsers.feature:21)\n",
-              "duration": 1000000,
               "status": "failed"
             },
             "line": 21,
@@ -4338,7 +4309,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-07-01T14:33:47.917Z",
+        "start_timestamp": "2022-07-01T14:43:18.200Z",
         "line": 30,
         "name": "Verify that the update operation with invalid user credentials unsuccessfully",
         "description": "",
@@ -4348,6 +4319,7 @@
         "steps": [
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 17,
@@ -4445,7 +4417,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-07-01T14:33:48.904Z",
+        "start_timestamp": "2022-07-01T14:43:19.204Z",
         "line": 31,
         "name": "Verify that the update operation with invalid user credentials unsuccessfully",
         "description": "",
@@ -4455,7 +4427,6 @@
         "steps": [
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "line": 17,
@@ -4473,7 +4444,6 @@
           },
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "line": 18,
@@ -4495,7 +4465,7 @@
           },
           {
             "result": {
-              "duration": 987000000,
+              "duration": 1000000000,
               "status": "passed"
             },
             "line": 19,
@@ -4521,7 +4491,7 @@
           },
           {
             "result": {
-              "duration": 9000000,
+              "duration": 7000000,
               "status": "passed"
             },
             "line": 20,
@@ -4553,7 +4523,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-07-01T14:33:49.911Z",
+        "start_timestamp": "2022-07-01T14:43:20.219Z",
         "line": 32,
         "name": "Verify that the update operation with invalid user credentials unsuccessfully",
         "description": "",
@@ -4563,7 +4533,6 @@
         "steps": [
           {
             "result": {
-              "duration": 2000000,
               "status": "passed"
             },
             "line": 17,
@@ -4581,7 +4550,6 @@
           },
           {
             "result": {
-              "duration": 2000000,
               "status": "passed"
             },
             "line": 18,
@@ -4603,7 +4571,7 @@
           },
           {
             "result": {
-              "duration": 958000000,
+              "duration": 1091000000,
               "status": "passed"
             },
             "line": 19,
@@ -4629,7 +4597,7 @@
           },
           {
             "result": {
-              "duration": 9000000,
+              "duration": 7000000,
               "status": "passed"
             },
             "line": 20,
@@ -4642,7 +4610,6 @@
           {
             "result": {
               "error_message": "java.lang.AssertionError: \nExpected: \"400\"\n     but: was \"200\"\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)\n\tat steps.BaseStepDefs.iShouldSeeStatusCode(BaseStepDefs.java:28)\n\tat ✽.I should see status code \"400\"(file:///Users/ecemyilmaz/Desktop/RestAssured_/src/test/java/features/UPDATEUsers.feature:21)\n",
-              "duration": 1000000,
               "status": "failed"
             },
             "line": 21,
@@ -4661,7 +4628,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-07-01T14:33:50.889Z",
+        "start_timestamp": "2022-07-01T14:43:21.330Z",
         "line": 33,
         "name": "Verify that the update operation with invalid user credentials unsuccessfully",
         "description": "",
@@ -4689,7 +4656,7 @@
           },
           {
             "result": {
-              "duration": 2000000,
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 18,
@@ -4711,7 +4678,7 @@
           },
           {
             "result": {
-              "duration": 1227000000,
+              "duration": 966000000,
               "status": "passed"
             },
             "line": 19,
@@ -4737,7 +4704,7 @@
           },
           {
             "result": {
-              "duration": 9000000,
+              "duration": 8000000,
               "status": "passed"
             },
             "line": 20,
@@ -4750,6 +4717,7 @@
           {
             "result": {
               "error_message": "java.lang.AssertionError: \nExpected: \"400\"\n     but: was \"200\"\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)\n\tat steps.BaseStepDefs.iShouldSeeStatusCode(BaseStepDefs.java:28)\n\tat ✽.I should see status code \"400\"(file:///Users/ecemyilmaz/Desktop/RestAssured_/src/test/java/features/UPDATEUsers.feature:21)\n",
+              "duration": 1000000,
               "status": "failed"
             },
             "line": 21,
@@ -4768,7 +4736,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-07-01T14:33:52.135Z",
+        "start_timestamp": "2022-07-01T14:43:22.314Z",
         "line": 34,
         "name": "Verify that the update operation with invalid user credentials unsuccessfully",
         "description": "",
@@ -4818,7 +4786,7 @@
           },
           {
             "result": {
-              "duration": 1008000000,
+              "duration": 1310000000,
               "status": "passed"
             },
             "line": 19,
@@ -4844,7 +4812,7 @@
           },
           {
             "result": {
-              "duration": 6000000,
+              "duration": 9000000,
               "status": "passed"
             },
             "line": 20,
@@ -4857,7 +4825,6 @@
           {
             "result": {
               "error_message": "java.lang.AssertionError: \nExpected: \"400\"\n     but: was \"200\"\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)\n\tat steps.BaseStepDefs.iShouldSeeStatusCode(BaseStepDefs.java:28)\n\tat ✽.I should see status code \"400\"(file:///Users/ecemyilmaz/Desktop/RestAssured_/src/test/java/features/UPDATEUsers.feature:21)\n",
-              "duration": 1000000,
               "status": "failed"
             },
             "line": 21,

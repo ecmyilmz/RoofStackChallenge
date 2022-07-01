@@ -1,0 +1,1 @@
+{"uuid":"d3845a04-cd4c-4973-90e9-2909ff6c62e5","name":"Scenario Outline: Verify non-success scenarios when creating a user with an invalid user credentials","children":["3dc26da3-3969-4b41-9935-1469c39d37b1"],"befores":[],"afters":[],"start":1656686570909,"stop":1656686572101}
