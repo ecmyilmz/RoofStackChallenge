@@ -281,25 +281,27 @@ note:For this scenario, we expect 400 as an invalid character result, but the mo
 
 <li><b>Get Users Scenarios:</b></li>
 <br/>
-1- Verify that status code with user list request
-2- Verify the user credentials field with user list request
-3- Verify that status code with user by id
-4- Verify the user credentials field with user by id
+1- Verify that status code with user list request<br/>
+2- Verify the user credentials field with user list request<br/>
+3- Verify that status code with user by id<br/>
+4- Verify the user credentials field with user by id<br/>
+<br/>
+
 
 <li><b>Remove Users Scenarios:</b></li>
 <br/>
-1- Verify that delete operation with valid UserID successfully
-2- Verify that delete operation with invalid userID unsuccessfully
+1- Verify that delete operation with valid UserID successfully<br/>
+2- Verify that delete operation with invalid userID unsuccessfully<br/>
+<br/>
 
 <li><b>Patch Users Scenarios:</b></li>
 <br/>
-
-1- Verify that patch operation with valid active body successfully
-2- Verify that patch operation with invalid active body unsuccessfully
+1- Verify that patch operation with valid active body successfully<br/>
+2- Verify that patch operation with invalid active body unsuccessfully<br/>
+<br/>
 
 <li><b>Update Users Scenarios:</b></li>
 <br/>
-
 1- Verify that the update operation with valid user credentials successfully
 <table>
     <tr>
