@@ -58,8 +58,6 @@ The project was developed using the following technologies:
 
 - `mvn clean test`
 
-(above command that only compatibly works in the master branch)
-
 ### :link: Test Cases
 <p>Some test cases failed because the expected value and arrived value are not fit on the status code test.</p>
 <b>Test Features</b>
