@@ -1,6 +1,7 @@
 package steps;
 
 import cucumber.api.DataTable;
+import cucumber.api.PendingException;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -57,8 +58,6 @@ public class CREATEUsers {
 
     @When("^I send POST method$")
     public void iSendPOSTMethod() {
-        baseStepDefs.globRestAssuredExtension.setMethod(APIConstant.ApiMethods.POST);
-        baseStepDefs.response = baseStepDefs.globRestAssuredExtension.Execute();
     }
 
     @Then("^I should see the body has id as not empty$")
@@ -68,5 +67,6 @@ public class CREATEUsers {
         user.setId(baseStepDefs.response.getBody().jsonPath().get("userId"));
         assertThat(user.getId(), is(notNullValue()));
     }
+
 
 }

@@ -2,8 +2,10 @@ package steps;
 
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
 import io.restassured.response.Response;
 import io.restassured.response.ResponseOptions;
+import utilities.APIConstant;
 import utilities.RestAssuredExtension;
 
 import static org.hamcrest.CoreMatchers.equalTo;
@@ -22,5 +24,11 @@ public class BaseStepDefs {
     public void iShouldSeeStatusCode(String stsCode) throws Throwable {
         String statusCode = String.valueOf(this.response.getStatusCode());
         assertThat(statusCode,equalTo(stsCode));
+    }
+
+    @When("^I send GET method$")
+    public void iSendGETMethod() {
+        globRestAssuredExtension.setMethod(APIConstant.ApiMethods.GET);
+        response = globRestAssuredExtension.Execute();
     }
 }
