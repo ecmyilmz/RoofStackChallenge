@@ -30,7 +30,7 @@ Just only cucumber5(master) branch all requirements provided and test report gen
 https://documenter.getpostman.com/view/10044263/UVeAto3e#940477f8-bca0-4a9d-8aed-6bb4ca473afa
 
 <h2 align="center">
-<img alt="logo" src="https://repository-images.githubusercontent.com/307019692/466a1700-3719-11eb-9b3d-6dd7ef884a64" />
+<img alt="basicUml" src="https://github.com/ecmyilmz/RoofStackChallenge/blob/cucumber7/assets/BasicUmlDiagram.png?raw=true" />
 </h2>
 
 
@@ -440,10 +440,20 @@ note:For this scenario, we expect 400 as an invalid character result, but the mo
 
 ### :link: Test Reports
 
+<b>Running Test Reports</b>
+<p>You need to run TestRunner with Junit, It will provide all files into the target file and then Allure can serve provided files.</p>
+
+- `run /test/java/runner/TestRunner`
+- `cd target`
+- `allure serve allure-results`
+
+
+(above command that only compatibly works in the master branch)
+
 <h2 align="center">
-  <img alt="logo" src="https://github.com/ecmyilmz/RoofStackChallenge/tree/cucumber7/blob/cucumber7/assets/allure-results1.gif?raw=true" />
+  <img alt="report" src="https://github.com/ecmyilmz/RoofStackChallenge/blob/cucumber7/assets/allure-results1.png?raw=true" />
 </h2>
 
 <h2 align="center">
-  <img alt="logo" src="https://github.com/ecmyilmz/RoofStackChallenge/tree/cucumber7/blob/cucumber7/assets/report.gif?raw=true" />
+  <img alt="report-gif" src="https://github.com/ecmyilmz/RoofStackChallenge/blob/cucumber7/assets/report.gif?raw=true" />
 </h2>
