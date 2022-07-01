@@ -18,7 +18,8 @@
 In this project, I have tested given swagger API's the API Test. This API was already mocked so I didn't do any more effort into mocking the server. My first approach is checking the status code for all different requests. Then I check the response bodies' property.
 You can see test link in the below on this section
 
-For the tech stack, I used several different libraries and tools for discovering which are better and which work properly together. You can follow that in different branches.
+For the tech stack, I used several different libraries and tools for discovering which are better and which work properly together. So I faced lots of compatible problems. You can follow that in different branches and see my solutions, As a result, All comments are welcome.
+
 <p> main => cucumber 1 (the first version of cucumber(legacy)) </p>
 <p> cucumber 7 => cucumber 7 and latest dependencies </p>
 <p> cucumber 5 => cucumber 7 </p>
@@ -50,9 +51,9 @@ The project was developed using the following technologies:
 
 <b>Download all dependencies</b>
 
-Please run (it's work for only master branch)
-
 - `mvn clean test`
+
+(above command that only compatibly works in the master branch)
 
 ### :link: Test Cases
 <p>Some test cases failed because the expected value and arrived value are not fit on the status code test.</p>
