@@ -20,9 +20,6 @@ You can see test link in the below on this section
 
 For the tech stack, I used several different libraries and tools for discovering which are better and which work properly together. So I faced lots of compatible problems. You can follow that in different branches and see my solutions, As a result, All comments are welcome.
 
-<p> main => cucumber 1 (the first version of cucumber(legacy)) </p>
-<p> cucumber 7 => cucumber 7 and latest dependencies </p>
-<p> cucumber 5 => cucumber 7 </p>
 
 I made the above changes because I got  problems with generating test report. Every branch work for only test requirement.
 Just only cucumber5(master) branch all requirements provided and test report generated.
@@ -41,7 +38,9 @@ The project was developed using the following technologies:
 - [Java8](https://www.oracle.com/java/technologies/java8.html)
 - [Rest-Assured](https://rest-assured.io/)
 - [Cucumber](https://cucumber.dev/)
-- [Allure](https://github.com/allure-framework)
+- [Allure-Report](https://github.com/allure-framework)
+- [Junit](https://github.com/Junit)
+
 
 
 ## :seedling: Minimal Requirements
@@ -67,8 +66,9 @@ The project was developed using the following technologies:
 
 <ul>
 <li>Create Users Scenarios</li>
-1- Verify success scenarios with creating users with valid credentials
-<table>
+<br />
+<b>1- Verify success scenarios with creating users with valid credentials</b>
+<table style="width:300px">
 <tr>
         <td>Description</td>
         <td>firstName</td>
@@ -161,9 +161,11 @@ The project was developed using the following technologies:
 
 
 
-2- Verify non-success scenarios when creating a user with an invalid user credentials
+<b>2- Verify non-success scenarios when creating a user with an invalid user credentials</b>
+<br/>
 note:For this scenario, we expect 400 as an invalid character result, but the mock api also returns 200, so the scenario failed.
-<table>
+<br/>
+<table">
 <tr>
         <td>Description</td>
         <td>firstName</td>
@@ -279,21 +281,27 @@ note:For this scenario, we expect 400 as an invalid character result, but the mo
 </table>
 
 <li>Get Users Scenarios:</li>
-1- Verify that status code with user list request
-2- Verify the user credentials field with user list request
-3- Verify that status code with user by id
-4- Verify the user credentials field with user by id
+<br/>
+<b>1- Verify that status code with user list request</b>
+<b>2- Verify the user credentials field with user list request</b>
+<b>3- Verify that status code with user by id</b>
+<b>4- Verify the user credentials field with user by id</b>
 
 <li>Remove Users Scenarios:</li>
+<br/>
 1- Verify that delete operation with valid UserID successfully
 2- Verify that delete operation with invalid userID unsuccessfully
 
 <li>Patch Users Scenarios:</li>
+<br/>
+
 1- Verify that patch operation with valid active body successfully
 2- Verify that patch operation with invalid active body unsuccessfully
 
 <li>Update Users Scenarios:</li>
-1- Verify that the update operation with valid user credentials successfully
+<br/>
+
+<b>1- Verify that the update operation with valid user credentials successfully</b>
 <table>
     <tr>
         <td>Description</td>
@@ -345,7 +353,7 @@ note:For this scenario, we expect 400 as an invalid character result, but the mo
     </tr>
 </table>
 
-2- Verify that the update operation with invalid user credentials unsuccessfully
+<b>2- Verify that the update operation with invalid user credentials unsuccessfully</b>
 <table>
     <tr>
         <td>Description</td>
