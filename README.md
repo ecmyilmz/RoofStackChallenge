@@ -354,7 +354,7 @@ note:For this scenario, we expect 400 as an invalid character result, but the mo
 </table>
 
 <b>2- Verify that the update operation with invalid user credentials unsuccessfully</b>
-<table>
+<table style="width:200px">
     <tr>
         <td>Description</td>
         <td>firstName</td>
