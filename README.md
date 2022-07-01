@@ -1,4 +1,4 @@
-<h1 align="center"> RoofStacks Api Testing Challange
+<h1 align="center"> RoofStacks Api Testing Challenge
 </h1>
 <h2 align="center">
 <img alt="logo" src="https://repository-images.githubusercontent.com/307019692/466a1700-3719-11eb-9b3d-6dd7ef884a64" />
