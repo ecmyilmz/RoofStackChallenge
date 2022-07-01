@@ -38,4 +38,5 @@ public class BaseStepDefs {
         globRestAssuredExtension.setMethod(APIConstant.ApiMethods.POST);
         response = globRestAssuredExtension.Execute();
     }
+
 }

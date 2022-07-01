@@ -1,7 +1,7 @@
 Feature: UpdateUsers
 
   Scenario Outline: Verify that the update operation with valid user credentials successfully
-    Given My path is "/users/"
+    Given My path is "/users"
     Given I created a user whose firstname is "jane" and  lastname is "doe"
      When I send PUT method with "<firstname>" and "<lastname>" update
      Then I should see the body has id as not empty
@@ -14,7 +14,7 @@ Feature: UpdateUsers
     | jane                                               | doedoedoedoedoedoedoedoedoedoedoedoedoedoedoedoedo | 200        |
 
   Scenario Outline: Verify that the update operation with invalid user credentials unsuccessfully
-    Given My path is "/users/"
+    Given My path is "/users"
     Given I created a user whose firstname is "jane" and  lastname is "doe"
      When I send PUT method with "<firstname>" and "<lastname>" update
      Then I should see the body has id as not empty

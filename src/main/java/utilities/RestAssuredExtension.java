@@ -36,7 +36,7 @@ public class RestAssuredExtension {
     }
 
     /**
-     * ExecuteAPI to execute the API for GET/POST/DELETE
+     * ExecuteAPI to execute the API for GET/POST/DELETE/PUT
      * @return ResponseOptions<Response>
      */
     private ResponseOptions<Response> ExecuteAPI() {
@@ -51,50 +51,36 @@ public class RestAssuredExtension {
             return request.delete(this.url);
         else if(this.method.equalsIgnoreCase(APIConstant.ApiMethods.GET))
             return request.get(this.url);
+        else if(this.method.equalsIgnoreCase(APIConstant.ApiMethods.PUT))
+            return request.put(this.url);
+        else if(this.method.equalsIgnoreCase(APIConstant.ApiMethods.PATCH))
+            return request.patch(this.url);
+
         return null;
     }
-
     /**
-     * ExecuteWithPathParams
-     * @param pathParams
-     * @return
-     */
-    public ResponseOptions<Response> ExecuteWithPathParams(Map<String, String> pathParams) {
-        builder.addPathParams(pathParams);
-        return ExecuteAPI();
-    }
-
-    /**
-     * ExecuteWithPathParamsAndBody
-     * @param pathParams
+     * setBody Setting request Body
      * @param body
      * @return
      */
-    public ResponseOptions<Response> ExecuteWithPathParamsAndBody(Map<String, String> pathParams, Map<String, String> body) {
-        builder.setBody(body);
-        builder.addPathParams(pathParams);
-        return ExecuteAPI();
-    }
-
-    /**
-     * ExecuteWithPathParamsAndBody
-     * @param pathParams
-     * @param body
-     * @return
-     */
-    public ResponseOptions<Response> ExecuteWithBody(Map<String, String> body) {
-        builder.setBody(body);
-        return ExecuteAPI();
-    }
-
     public void setBody(Map<String, String> body) {
         builder.setBody(body);
     }
 
+    /**
+     * Execute
+     * @param
+     * @return
+     */
     public ResponseOptions<Response> Execute() {
         return ExecuteAPI();
     }
 
+    /**
+     * Execute with UserId
+     * @param  userId
+     * @return
+     */
     public ResponseOptions<Response> setParamsAndExecute(String userId) {
         this.url = this.url +'/'+userId;
         return ExecuteAPI();
