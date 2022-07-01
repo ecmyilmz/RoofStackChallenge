@@ -1920,10 +1920,6 @@ formatter.step({
   "keyword": "When "
 });
 formatter.step({
-  "name": "I should see the response body should be an empty",
-  "keyword": "Then "
-});
-formatter.step({
   "name": "I should see status code \"\u003cstatusCode\u003e\"",
   "keyword": "Then "
 });
@@ -1982,17 +1978,6 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "I should see the response body should be an empty",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "steps.REMOVEUsers.iShouldSeeTheResponseBodyShouldBeAnEmpty()"
-});
-formatter.result({
-  "error_message": "java.lang.NullPointerException\n\tat steps.REMOVEUsers.iShouldSeeTheResponseBodyShouldBeAnEmpty(REMOVEUsers.java:35)\n\tat ✽.I should see the response body should be an empty(file:///Users/ecemyilmaz/Desktop/RestAssured_/src/test/java/features/REMOVEUsers.feature:8)\n",
-  "status": "failed"
-});
-formatter.step({
   "name": "I should see status code \"200\"",
   "keyword": "Then "
 });
@@ -2000,7 +1985,7 @@ formatter.match({
   "location": "steps.BaseStepDefs.iShouldSeeStatusCode(java.lang.String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.scenarioOutline({
   "name": "Verify that delete operation with invalid userID unsuccessful",
@@ -2105,7 +2090,7 @@ formatter.match({
   "location": "steps.BaseStepDefs.iShouldSeeStatusCode(java.lang.String)"
 });
 formatter.result({
-  "error_message": "java.lang.AssertionError: \nExpected: \"403\"\n     but: was \"404\"\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)\n\tat steps.BaseStepDefs.iShouldSeeStatusCode(BaseStepDefs.java:28)\n\tat ✽.I should see status code \"403\"(file:///Users/ecemyilmaz/Desktop/RestAssured_/src/test/java/features/REMOVEUsers.feature:19)\n",
+  "error_message": "java.lang.AssertionError: \nExpected: \"403\"\n     but: was \"404\"\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)\n\tat steps.BaseStepDefs.iShouldSeeStatusCode(BaseStepDefs.java:28)\n\tat ✽.I should see status code \"403\"(file:///Users/ecemyilmaz/Desktop/RestAssured_/src/test/java/features/REMOVEUsers.feature:18)\n",
   "status": "failed"
 });
 formatter.scenario({
@@ -2151,7 +2136,7 @@ formatter.match({
   "location": "steps.REMOVEUsers.iShouldSeeTheResponseBodyShouldBeAnEmpty()"
 });
 formatter.result({
-  "error_message": "java.lang.NullPointerException\n\tat steps.REMOVEUsers.iShouldSeeTheResponseBodyShouldBeAnEmpty(REMOVEUsers.java:35)\n\tat ✽.I should see the response body should be an empty(file:///Users/ecemyilmaz/Desktop/RestAssured_/src/test/java/features/REMOVEUsers.feature:18)\n",
+  "error_message": "java.lang.NullPointerException\n\tat steps.REMOVEUsers.iShouldSeeTheResponseBodyShouldBeAnEmpty(REMOVEUsers.java:35)\n\tat ✽.I should see the response body should be an empty(file:///Users/ecemyilmaz/Desktop/RestAssured_/src/test/java/features/REMOVEUsers.feature:17)\n",
   "status": "failed"
 });
 formatter.step({

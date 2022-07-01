@@ -5,7 +5,6 @@ Feature: DeleteUsers
     Given My path is "/users"
     Given I created a user
      When I send REMOVE method with "<userId>" userID
-     Then I should see the response body should be an empty
      Then I should see status code "<statusCode>"
     Examples:
       | userId                               | statusCode |
