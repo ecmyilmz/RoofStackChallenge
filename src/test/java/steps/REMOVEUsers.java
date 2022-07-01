@@ -1,7 +1,9 @@
 package steps;
 
+import cucumber.api.PendingException;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
 import io.restassured.response.Response;
 import io.restassured.response.ResponseOptions;
 import models.Users;
@@ -12,23 +14,28 @@ import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.MatcherAssert.assertThat;
 
 public class REMOVEUsers {
-    private static ResponseOptions<Response> response;
+    public BaseStepDefs baseStepDefs;
 
-    @Given("^I Perform DELETE operation for \"([^\"]*)\" and i want delete \"([^\"]*)\" userId$")
-    public void iPerformDELETEOperationForAndIWantDeleteUserId(String url, String userId) throws Throwable {
-        //Perform delete operation
-        RestAssuredExtension restAssuredExtension = new RestAssuredExtension(url+"/"+userId, APIConstant.ApiMethods.DELETE);
-        response = restAssuredExtension.Execute();
+    public REMOVEUsers() {
     }
-
-    @Then("^I should see the response body should be an empty$")
-    public void iShouldSeeTheResponseBodyShouldBeAnEmpty() {
-        Users user = response.getBody().as(Users.class);
-        assertThat(user.getId(), equalTo(null));
+    public REMOVEUsers(BaseStepDefs baseStepDefs) {
+        this.baseStepDefs = baseStepDefs;
     }
 
     @Given("^I created a user$")
     public void iCreatedAUser() {
-        // verilen api serverda user create etmeye gerek yoktur. Fakat normalde remove öncesinde create edilmesi gerektiği için gherkin adımında yazılmıştır
+        // Normally we need to generate a new user before DELETE request, but we don't need any action within current API
+    }
+
+    @When("^I send REMOVE method with \"([^\"]*)\" userID$")
+    public void iSendREMOVEMethodWithUserID(String userId) throws Throwable {
+        baseStepDefs.globRestAssuredExtension.setMethod(APIConstant.ApiMethods.DELETE);
+        baseStepDefs.response = baseStepDefs.globRestAssuredExtension.setParamsAndExecute(userId);
+    }
+
+    @Then("^I should see the response body should be an empty$")
+    public void iShouldSeeTheResponseBodyShouldBeAnEmpty() {
+        Users user = baseStepDefs.response.getBody().as(Users.class);
+        assertThat(user.getId(), equalTo(null));
     }
 }
