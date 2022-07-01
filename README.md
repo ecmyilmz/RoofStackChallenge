@@ -26,6 +26,7 @@ Just only cucumber5(master) branch all requirements provided and test report gen
 
 https://documenter.getpostman.com/view/10044263/UVeAto3e#940477f8-bca0-4a9d-8aed-6bb4ca473afa
 
+Basic system UML diagram:
 <h2 align="center">
 <img alt="basicUml" src="https://github.com/ecmyilmz/RoofStackChallenge/blob/cucumber7/assets/BasicUmlDiagram.png?raw=true" />
 </h2>
@@ -63,9 +64,9 @@ The project was developed using the following technologies:
 <b>Test Features</b>
 
 <ul>
-<li>Create Users Scenarios</li>
+<li><b>Create Users Scenarios</b></li>
 <br />
-<b>1- Verify success scenarios with creating users with valid credentials</b>
+1- Verify success scenarios with creating users with valid credentials
 <table style="width:300px">
 <tr>
         <td>Description</td>
@@ -159,11 +160,11 @@ The project was developed using the following technologies:
 
 
 
-<b>2- Verify non-success scenarios when creating a user with an invalid user credentials</b>
+2- Verify non-success scenarios when creating a user with an invalid user credentials
 <br/>
 note:For this scenario, we expect 400 as an invalid character result, but the mock api also returns 200, so the scenario failed.
 <br/>
-<table">
+<table>
 <tr>
         <td>Description</td>
         <td>firstName</td>
@@ -278,28 +279,28 @@ note:For this scenario, we expect 400 as an invalid character result, but the mo
     </tr>
 </table>
 
-<li>Get Users Scenarios:</li>
+<li><b>Get Users Scenarios:</b></li>
 <br/>
-<b>1- Verify that status code with user list request</b>
-<b>2- Verify the user credentials field with user list request</b>
-<b>3- Verify that status code with user by id</b>
-<b>4- Verify the user credentials field with user by id</b>
+1- Verify that status code with user list request
+2- Verify the user credentials field with user list request
+3- Verify that status code with user by id
+4- Verify the user credentials field with user by id
 
-<li>Remove Users Scenarios:</li>
+<li><b>Remove Users Scenarios:</b></li>
 <br/>
 1- Verify that delete operation with valid UserID successfully
 2- Verify that delete operation with invalid userID unsuccessfully
 
-<li>Patch Users Scenarios:</li>
+<li><b>Patch Users Scenarios:</b></li>
 <br/>
 
 1- Verify that patch operation with valid active body successfully
 2- Verify that patch operation with invalid active body unsuccessfully
 
-<li>Update Users Scenarios:</li>
+<li><b>Update Users Scenarios:</b></li>
 <br/>
 
-<b>1- Verify that the update operation with valid user credentials successfully</b>
+1- Verify that the update operation with valid user credentials successfully
 <table>
     <tr>
         <td>Description</td>
@@ -351,7 +352,7 @@ note:For this scenario, we expect 400 as an invalid character result, but the mo
     </tr>
 </table>
 
-<b>2- Verify that the update operation with invalid user credentials unsuccessfully</b>
+2- Verify that the update operation with invalid user credentials unsuccessfully
 <table style="width:200px">
     <tr>
         <td>Description</td>
