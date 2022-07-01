@@ -1,28 +1,25 @@
 package steps;
 
-import cucumber.api.PendingException;
-import cucumber.api.java.en.Given;
-import cucumber.api.java.en.Then;
-import cucumber.api.java.en.When;
-import io.restassured.response.Response;
-import io.restassured.response.ResponseOptions;
+
+
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+
+import io.cucumber.java.en.When;
 import models.Users;
 import utilities.APIConstant;
-import utilities.RestAssuredExtension;
+
 
 import java.util.Arrays;
 
 import static org.hamcrest.CoreMatchers.equalTo;
-import static org.hamcrest.CoreMatchers.hasItem;
 import static org.hamcrest.MatcherAssert.assertThat;
 
 public class GETUsers {
     public BaseStepDefs baseStepDefs;
 
     public GETUsers() {
-
     }
-
     public GETUsers(BaseStepDefs baseStepDefs) {
         this.baseStepDefs = baseStepDefs;
     }
