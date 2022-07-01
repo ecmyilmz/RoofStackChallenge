@@ -31,4 +31,9 @@ public class BaseStepDefs {
         globRestAssuredExtension.setMethod(APIConstant.ApiMethods.GET);
         response = globRestAssuredExtension.Execute();
     }
+    @When("^I send POST method$")
+    public void iSendPOSTMethod() {
+        globRestAssuredExtension.setMethod(APIConstant.ApiMethods.POST);
+        response = globRestAssuredExtension.Execute();
+    }
 }

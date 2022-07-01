@@ -56,9 +56,6 @@ public class CREATEUsers {
         baseStepDefs.globRestAssuredExtension.setBody(body);
     }
 
-    @When("^I send POST method$")
-    public void iSendPOSTMethod() {
-    }
 
     @Then("^I should see the body has id as not empty$")
     public void iShouldSeeTheBodyHasIdAsNotEmpty() {
