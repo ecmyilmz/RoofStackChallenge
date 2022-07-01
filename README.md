@@ -1,7 +1,7 @@
 <h1 align="center"> RoofStacks Api Testing Challange
 </h1>
 <h2 align="center">
-
+<img alt="logo" src="https://repository-images.githubusercontent.com/307019692/466a1700-3719-11eb-9b3d-6dd7ef884a64" />
 </h2>
 
 ---
@@ -28,6 +28,12 @@ I made the above changes because I got  problems with generating test report. Ev
 Just only cucumber5(master) branch all requirements provided and test report generated.
 
 https://documenter.getpostman.com/view/10044263/UVeAto3e#940477f8-bca0-4a9d-8aed-6bb4ca473afa
+
+<h2 align="center">
+<img alt="logo" src="https://repository-images.githubusercontent.com/307019692/466a1700-3719-11eb-9b3d-6dd7ef884a64" />
+</h2>
+
+
 ## :rocket: Technologies
 
 The project was developed using the following technologies:
