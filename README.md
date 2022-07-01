@@ -66,11 +66,384 @@ The project was developed using the following technologies:
 <b>Test Features</b>
 
 <ul>
-<li>Create Users</li>
-<li>Get User(s)</li>
-<li>Remove User(s)</li>
-<li>Switch User(s)</li>
-<li>Update User(s)</li>
+<li>Create Users Scenarios</li>
+1- Verify success scenarios with creating users with valid credentials
+<table>
+<tr>
+        <td>Description</td>
+        <td>firstName</td>
+        <td>lastName</td>
+        <td>userName</td>
+        <td>password</td>
+        <td>statusCode</td>
+    </tr>
+    <tr>
+        <td>User Credentials</td>
+        <td>jane</td>
+        <td>doe</td>
+        <td>doejj</td>
+        <td>123456Aa*</td>
+        <td>200</td>
+    </tr>
+    <tr>
+        <td>FirstName Min:2 character </td>
+        <td>ja</td>
+        <td>doe</td>
+        <td>doejj</td>
+        <td>123456Aa*</td>
+        <td>200</td>
+    </tr>
+    <tr>
+        <td>FirstName Max:2 character </td>
+        <td>janejanejanejanejanejanejanejanejanejanejanejaneja</td>
+        <td>doe</td>
+        <td>doejj</td>
+        <td>123456Aa*</td>
+        <td>200</td>
+    </tr>
+    <tr>
+        <td>LastName Min:2 character </td>
+        <td>jane</td>
+        <td>do</td>
+        <td>doejj</td>
+        <td>123456Aa*</td>
+        <td>200</td>
+    </tr>
+    <tr>
+        <td>LastName Max:2 character </td>
+        <td>jane</td>
+        <td>doedoedoedoedoedoedoedoedoedoedoedoedoedoedoedoedo</td>
+        <td>doejj</td>
+        <td>123456Aa*</td>
+        <td>200</td>
+    </tr>
+    <tr>
+        <td>UserName Min:4 character</td>
+        <td>jane</td>
+        <td>doe</td>
+        <td>doej</td>
+        <td>123456Aa*</td>
+        <td>200</td>
+    </tr>
+    <tr>
+        <td>UserName Max:4 character</td>
+        <td>jane</td>
+        <td>doe</td>
+        <td>doejjdoejjdo</td>
+        <td>123456Aa*</td>
+        <td>200</td>
+    </tr>
+    <tr>
+        <td>UserName Alphanumeric</td>
+        <td>jane</td>
+        <td>doe</td>
+        <td>doejj12</td>
+        <td>123456Aa*</td>
+        <td>200</td>
+    </tr>
+    <tr>
+        <td>UserName Alphanumeric</td>
+        <td>jane</td>
+        <td>doe</td>
+        <td>doejj?</td>
+        <td>123456Aa*</td>
+        <td>200</td>
+    </tr>
+    <tr>
+        <td>UserName Alphanumeric</td>
+        <td>jane</td>
+        <td>doe</td>
+        <td>12345</td>
+        <td>123456Aa*</td>
+        <td>200</td>
+    </tr>
+</table>
+
+
+
+2- Verify non-success scenarios when creating a user with an invalid user credentials
+note:For this scenario, we expect 400 as an invalid character result, but the mock api also returns 200, so the scenario failed.
+<table>
+<tr>
+        <td>Description</td>
+        <td>firstName</td>
+        <td>lastName</td>
+        <td>userName</td>
+        <td>password</td>
+        <td>statusCode</td>
+    </tr>
+    <tr>
+        <td>FirstName is empty</td>
+        <td></td>
+        <td>doe</td>
+        <td>doejj</td>
+        <td>123456Aa*</td>
+        <td>400</td>
+    </tr>
+    <tr>
+        <td>FirstName Min:1 character </td>
+        <td>j</td>
+        <td>doe</td>
+        <td>doejj</td>
+        <td>123456Aa*</td>
+        <td>400</td>
+    </tr>
+    <tr>
+        <td>FirstName is number</td>
+        <td>123</td>
+        <td>doe</td>
+        <td>doejj</td>
+        <td>123456Aa*</td>
+        <td>400</td>
+    </tr>
+    <tr>
+        <td>FirstName special character</td>
+        <td>jane?</td>
+        <td>doe</td>
+        <td>doejj</td>
+        <td>123456Aa*</td>
+        <td>400</td>
+    </tr>
+    <tr>
+        <td>FirstName Min:51 character </td>
+        <td>janejanejanejanejanejanejanejanejanejanejanejanejan</td>
+        <td>doe</td>
+        <td>doejj</td>
+        <td>123456Aa*</td>
+        <td>400</td>
+    </tr>
+    <tr>
+        <td>LastName is empty</td>
+        <td>jane</td>
+        <td></td>
+        <td>doejj</td>
+        <td>123456Aa*</td>
+        <td>400</td>
+    </tr>
+    <tr>
+        <td>LastName Min:1 character </td>
+        <td>jane</td>
+        <td>d</td>
+        <td>doejj</td>
+        <td>123456Aa*</td>
+        <td>400</td>
+    </tr>
+    <tr>
+        <td>LastName is number</td>
+        <td>jane</td>
+        <td>123</td>
+        <td>doejj</td>
+        <td>123456Aa*</td>
+        <td>400</td>
+    </tr>
+    <tr>
+        <td>LastName special character</td>
+        <td>jane</td>
+        <td>doe?</td>
+        <td>doejj</td>
+        <td>123456Aa*</td>
+        <td>400</td>
+    </tr>
+    <tr>
+        <td>LastName Min:51 character </td>
+        <td>jane</td>
+        <td>doedoedoedoedoedoedoedoedoedoedoedoedoedoedoedoedoe</td>
+        <td>doejj</td>
+        <td>123456Aa*</td>
+        <td>400</td>
+    </tr>
+    <tr>
+        <td>UserName is empty</td>
+        <td>jane</td>
+        <td>doe</td>
+        <td></td>
+        <td>123456Aa*</td>
+        <td>400</td>
+    </tr>
+    <tr>
+        <td>UserName Min:2 character </td>
+        <td>jane</td>
+        <td>doe</td>
+        <td>doe</td>
+        <td>123456Aa*</td>
+        <td>400</td>
+    </tr>
+    <tr>
+        <td>UserName Min:13 character </td>
+        <td>jane</td>
+        <td>doe</td>
+        <td>doejjdoejjdoe</td>
+        <td>123456Aa*</td>
+        <td>400</td>
+    </tr>
+</table>
+
+<li>Get Users Scenarios:</li>
+1- Verify that status code with user list request
+2- Verify the user credentials field with user list request
+3- Verify that status code with user by id
+4- Verify the user credentials field with user by id
+
+<li>Remove Users Scenarios:</li>
+1- Verify that delete operation with valid UserID successfully
+2- Verify that delete operation with invalid userID unsuccessfully
+
+<li>Patch Users Scenarios:</li>
+1- Verify that patch operation with valid active body successfully
+2- Verify that patch operation with invalid active body unsuccessfully
+
+<li>Update Users Scenarios:</li>
+1- Verify that the update operation with valid user credentials successfully
+<table>
+    <tr>
+        <td>Description</td>
+        <td>firstName</td>
+        <td>lastName</td>
+        <td>statusCode</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>User Credentials</td>
+        <td>jane</td>
+        <td>doe</td>
+        <td>200</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>FirstName Min:2 character </td>
+        <td>ja</td>
+        <td>doe</td>
+        <td>200</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>FirstName Max:2 character </td>
+        <td>janejanejanejanejanejanejanejanejanejanejanejaneja</td>
+        <td>doe</td>
+        <td>200</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LastName Min:2 character </td>
+        <td>jane</td>
+        <td>do</td>
+        <td>200</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LastName Max:2 character </td>
+        <td>jane</td>
+        <td>doedoedoedoedoedoedoedoedoedoedoedoedoedoedoedoedo</td>
+        <td>200</td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
+
+2- Verify that the update operation with invalid user credentials unsuccessfully
+<table>
+    <tr>
+        <td>Description</td>
+        <td>firstName</td>
+        <td>lastName</td>
+        <td>statusCode</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>FirstName is empty</td>
+        <td></td>
+        <td>doe</td>
+        <td>400</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>FirstName Min:1 character </td>
+        <td>j</td>
+        <td>doe</td>
+        <td>400</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>FirstName is number</td>
+        <td>123</td>
+        <td>doe</td>
+        <td>400</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>FirstName special character</td>
+        <td>jane?</td>
+        <td>doe</td>
+        <td>400</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>FirstName Min:51 character </td>
+        <td>janejanejanejanejanejanejanejanejanejanejanejanejan</td>
+        <td>doe</td>
+        <td>400</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LastName is empty</td>
+        <td>jane</td>
+        <td></td>
+        <td>400</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LastName Min:1 character </td>
+        <td>jane</td>
+        <td>d</td>
+        <td>400</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LastName is number</td>
+        <td>jane</td>
+        <td>123</td>
+        <td>400</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LastName special character</td>
+        <td>jane</td>
+        <td>doe?</td>
+        <td>400</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>LastName Min:51 character </td>
+        <td>jane</td>
+        <td>doedoedoedoedoedoedoedoedoedoedoedoedoedoedoedoedoe</td>
+        <td>400</td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
 </ul>
 
 ### :link: Test Reports
+
+<h2 align="center">
+  <img alt="logo" src="https://github.com/ecmyilmz/RoofStackChallenge/tree/cucumber7/blob/cucumber7/assets/allure-results1.gif?raw=true" />
+</h2>
+
+<h2 align="center">
+  <img alt="logo" src="https://github.com/ecmyilmz/RoofStackChallenge/tree/cucumber7/blob/cucumber7/assets/report.gif?raw=true" />
+</h2>

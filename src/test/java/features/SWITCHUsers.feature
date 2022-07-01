@@ -1,6 +1,6 @@
 Feature: PatchUsers
 
-  Scenario Outline: Verify that patch operation successfully
+  Scenario Outline: Verify that patch operation with valid active body successfully
     Given My path is "/users"
     When I send Patch method with "<userID>" userID , "<isActive>" active body
     Then I should see status code "<statusCode>"
