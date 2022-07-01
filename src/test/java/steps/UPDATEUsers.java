@@ -18,10 +18,9 @@ public class UPDATEUsers {
 
     }
 
-    @When("I send PUT method with {string} and {string} update")
-    public void iSendPUTMethodWithAndUpdate(String firstname, String lastname) {
+    @When("I send PUT method with {string} and {string} update {string}")
+    public void iSendPUTMethodWithAndUpdate(String firstname, String lastname, String userId) {
         // Set body for update
-        String userId = "c4f6c088-f91b-494e-b7f0-a08f48df3180";
         HashMap<String, String> body = new HashMap<>();
         body.put("firstname", firstname);
         body.put("lastname", lastname);
