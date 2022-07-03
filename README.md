@@ -27,8 +27,8 @@ Just only cucumber5(master) branch all requirements provided and test report gen
 https://documenter.getpostman.com/view/10044263/UVeAto3e#940477f8-bca0-4a9d-8aed-6bb4ca473afa
 
 Basic system UML diagram:
-<h4 align="center">
-<img alt="basicUml" src="https://github.com/ecmyilmz/RoofStackChallenge/blob/master/assets/BasicUmlDiagram.png?raw=true" width="300" />
+<h4>
+<img alt="basicUml" src="https://github.com/ecmyilmz/RoofStackChallenge/blob/master/assets/BasicUmlDiagram.png?raw=true" width="400" />
 </h4>
 
 
