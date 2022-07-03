@@ -28,7 +28,7 @@ https://documenter.getpostman.com/view/10044263/UVeAto3e#940477f8-bca0-4a9d-8aed
 
 Basic system UML diagram:
 <h2 align="center">
-<img alt="basicUml" src="https://github.com/ecmyilmz/RoofStackChallenge/blob/cucumber7/assets/BasicUmlDiagram.png?raw=true" />
+<img alt="basicUml" src="https://github.com/ecmyilmz/RoofStackChallenge/blob/master/assets/BasicUmlDiagram.png?raw=true" />
 </h2>
 
 
